@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python labs/lab3/src/preprocessing.py
+    deps:
+    - path: labs/lab3/src/preprocessing.py
+      hash: md5
+      md5: 527495036c9534748d34af44df2f612c
+      size: 1200
+    outs:
+    - path: labs/lab3/data/processed_test_data.csv
+      hash: md5
+      md5: d44d9cec189c2aa8a832c440136c8382
+      size: 862952
+    - path: labs/lab3/data/processed_train_data.csv
+      hash: md5
+      md5: 36369301820dfad0d96c42d7533207c8
+      size: 3450987
